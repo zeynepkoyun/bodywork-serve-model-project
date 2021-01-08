@@ -28,6 +28,7 @@ from joblib import load
 from sklearn.base import BaseEstimator
 import os
 print(os.getcwd())
+print(os.listdir(os.getcwd()))
 MODEL_PATH = 'scoring-service/classification_model.joblib'
 CLASS_TO_SPECIES_MAP = {0: 'setosa', 1: 'versicolor', 2: 'virginica'}
 
