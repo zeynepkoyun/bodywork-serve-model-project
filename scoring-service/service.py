@@ -29,7 +29,7 @@ from sklearn.base import BaseEstimator
 import os
 print(os.getcwd())
 print(os.listdir(os.getcwd()))
-print("digeri ise",os.listdir(os.path.join(os.getcwd(),"bodywork_project")))
+print("digeri ise",os.listdir(os.path.join(os.getcwd(),"main_page")))
 MODEL_PATH = 'main_page/scoring-service/classification_model.joblib'
 CLASS_TO_SPECIES_MAP = {0: 'setosa', 1: 'versicolor', 2: 'virginica'}
 
